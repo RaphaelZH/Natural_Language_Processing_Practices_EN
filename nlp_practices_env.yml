@@ -1,0 +1,14 @@
+name: nlp_practices
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter=1.0.0
+  - matplotlib=3.4.2
+  - nltk=3.6.2
+  - numpy=1.19.5
+  - pandas=1.2.1
+  - scikit-learn=0.24.1
+  - spacy=3.0.6
+  - tensorflow=2.4.1
+prefix: /Users/haozhang/opt/anaconda3/envs/nlp_practices
