@@ -4,14 +4,17 @@ channels:
   - defaults
 dependencies:
   - autopep8=1.5.7
+  - click=7.1.2  
   - ipyparallel=6.3.0
   - jupyter=1.0.0
   - jupyter_contrib_nbextensions=0.5.1
   - matplotlib=3.4.2
+  - nbconvert=5.6.1
   - nltk=3.6.2
   - notebook=6.4.0
   - numpy=1.19.5
   - pandas=1.2.1
+  - python=3.7.9
   - scikit-learn=0.24.1
   - spacy=3.0.6
   - tensorflow=2.4.1
