@@ -1,10 +1,12 @@
 name: nlp_practices
 channels:
+  - anaconda
   - conda-forge
   - defaults
 dependencies:
   - autopep8=1.5.7
-  - click=7.1.2  
+  - click=7.1.2
+  - cudatoolkit=9.0
   - ipyparallel=6.3.0
   - jupyter=1.0.0
   - jupyter_contrib_nbextensions=0.5.1
@@ -19,4 +21,11 @@ dependencies:
   - spacy=3.0.6
   - tensorflow=2.4.1
   - yapf=0.31.0
+  - pip:
+    - cython==0.29.23
+    - en-core-web-sm==3.0.0
+    - fr-core-news-sm==3.0.0
+    - spacy-pkuseg==0.0.28
+    - zh-core-web-sm==3.0.0
+prefix: /Users/haozhang/opt/anaconda3/envs/nlp_practices
 prefix: /Users/haozhang/opt/anaconda3/envs/nlp_practices
