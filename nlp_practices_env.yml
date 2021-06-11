@@ -23,6 +23,6 @@ dependencies:
   - yapf=0.31.0 # pin version for conda
   - pip:
     # works for regular pip packages
-    - cython==0.29.23
-    - spacy-pkuseg==0.0.28
+    - cython==0.29.23 # pin version for pip
+    - spacy-pkuseg==0.0.28 # pin version for pip
 prefix: /Users/haozhang/opt/anaconda3/envs/nlp_practices
